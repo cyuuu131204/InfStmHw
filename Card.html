@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cute Cartoon Animal Cards</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffdfc;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px;
+      margin: 0;
+    }
+
+    h1 {
+      color: #ff69b4;
+      margin-bottom: 30px;
+    }
+
+    .card-container {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 250px;
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .card-content h2 {
+      color: #ff6f91;
+      margin: 10px 0;
+    }
+
+    .card-content p {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🐾 Cute Cartoon Animals 🐾</h1>
+
+  <div class="card-container">
+    <!-- Card 1 -->
+    <div class="card">
+      <img src="https://i.pinimg.com/736x/fc/d0/f6/fcd0f6ec726f0b6ee72c79cfa136545f.jpg" alt="Cute Bunny">
+      <div class="card-content">
+        <h2>Fluffy Bunny</h2>
+        <p>This little bunny loves hopping around and eating carrots all day!</p>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+      <img src="https://i.pinimg.com/736x/47/e9/8a/47e98add62c496c61ad68c789d9007f3.jpg" alt="Cute Bear">
+      <div class="card-content">
+        <h2>Chubby Bear</h2>
+        <p>A cuddly bear who enjoys naps and honey. So huggable!</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

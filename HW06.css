@@ -1,0 +1,16 @@
+/* Thiết lập style cho tất cả các thẻ iframe */
+iframe {
+    width: 70%;         /* Chiều rộng bằng 70% của phần tử chứa nó */
+    height: 300px;      /* Chiều cao cố định 300 pixel */
+    border: none;       /* Thường thêm vào để loại bỏ viền mặc định */
+}
+
+/* Lớp container sử dụng flexbox */
+.con {
+    display: flex;                  /* Kích hoạt flexbox layout */
+    flex-direction: column;         /* Sắp xếp các phần tử con theo chiều dọc */
+    justify-content: center;        /* Căn giữa theo trục chính (dọc) */
+    align-items: center;           /* Căn giữa theo trục chéo (ngang) */
+    width: 100%;                   /* Thường thêm vào để đảm bảo chiều rộng */
+    min-height: 100vh;             /* Thường dùng để chiếm full viewport height */
+}
